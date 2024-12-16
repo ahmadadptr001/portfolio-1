@@ -14,6 +14,7 @@
 }
 
 html, body {
+    overflow-x: hidden;
     font-family: "open sans" !important;
 }
 
@@ -31,6 +32,10 @@ html, body {
 .navbar .navbar-toggler {
     border: none !important;
     box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+    font-size: 2rem;
 }
 
 .offcanvas {
@@ -71,6 +76,57 @@ html, body {
 .hero h1 {
     font-weight: 700;
     font-size: 4.8rem; 
+}
+
+@media (min-width: 50px) {
+    .navbar-brand, .navbar-toggler-icon {
+        font-size: 110% !important;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .project #text-menu > * {
+        font-size: 80% !important;
+    }
+
+    footer i.fas {
+        display: none !important;
+    }
+}
+
+@media (min-width: 300px) {
+    .navbar-brand, .navbar-toggler-icon {
+        font-size: 100% !important;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .project #text-menu > * {
+        font-size: 80% !important;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .navbar-brand, .navbar-toggler-icon {
+        font-size: 150% !important;
+    }
+
+    .hero h1 {
+        font-size: 4.8rem;
+    }
+
+    .project #text-menu > * {
+        font-size: 120% !important;
+    }
+
+    footer i.fas {
+        display: block !important;
+    }
 }
 
 .project {
