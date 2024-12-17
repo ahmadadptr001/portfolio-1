@@ -287,10 +287,14 @@ footer p {
 }
 
 @media (min-width: 50px) {
-    .test {min-height: 40vh;}
+    .test {min-height: 32vh;}
 }
 
-@media (min-width: 200px) {
+@media (min-width: 220px) {
+    .test {min-height: 35vh;}
+}
+
+@media (min-width: 270px) {
     .test {min-height: 38vh;}
 }
 
