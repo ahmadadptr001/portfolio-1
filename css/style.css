@@ -242,6 +242,8 @@ footer p {
 }
 
 .top-wrapper {
+    z-index: -9999;
+    background: transparent;
 }
 
 .top-wrapper .text-video-home {
@@ -277,4 +279,55 @@ footer p {
 
 .top-wrapper video {
     width: 100%;
+    mix-blend-mode: darken;
+}
+
+.test {
+    min-height: 50vh;
+}
+
+@media (min-width: 50px) {
+    .test {min-height: 40vh;}
+}
+
+@media (min-width: 200px) {
+    .test {min-height: 38vh;}
+}
+
+@media (min-width: 330px) {
+    .test {min-height: 43vh;}
+}
+
+@media (min-width: 420px) {
+    .test {min-height: 50vh;}
+}
+
+@media (min-width: 550px) {
+    .test {min-height: 60vh;}
+}
+
+@media (min-width: 768px) {
+    .test {min-height: 70vh;}
+}
+
+@media (min-width: 1000px) {
+    .test {min-height: 95vh;}
+}
+
+@media (min-width: 1400px) {
+    .test {min-height: 120vh;}
+}
+
+
+.to-profile {
+    margin-top: -100px;
+    color: white;
+    text-align: right;
+    font-weight: 700;
+    min-height: 100vh;
+    background: linear-gradient(#ED9521 5%, white 40%);
+}
+
+.to-profile h1 {
+    font-weight: 800;
 }
